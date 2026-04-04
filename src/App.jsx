@@ -117,7 +117,7 @@ function App() {
             rel="noreferrer"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-medium text-white transition hover:bg-white hover:text-black"
           >
-            <Linkedin size={18} className="text-gray-300" />
+            <Linkedin size={30} className="text-white" />
             LinkedIn
           </motion.a>
         </div>
