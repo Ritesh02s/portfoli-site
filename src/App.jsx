@@ -22,6 +22,22 @@ function App() {
           <button onClick={() => scrollToSection("skills")} className="hover:text-gray-400">
             Skills
           </button>
+          <a
+            href="https://github.com/Ritesh02s"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-gray-400"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ritesh-shankar-72a433191/"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-gray-400"
+          >
+            LinkedIn
+          </a>
         </div>
       </nav>
 
