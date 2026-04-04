@@ -22,6 +22,9 @@ function App() {
           <button onClick={() => scrollToSection("skills")} className="hover:text-gray-400">
             Skills
           </button>
+          <p className="text-gray-400 mt-4">
+            riteshshankar2018@gmail.com
+          </p>
           <a
             href="https://github.com/Ritesh02s"
             target="_blank"
