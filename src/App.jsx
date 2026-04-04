@@ -47,7 +47,7 @@ function App() {
       {/* Hero */}
       <section
         id="hero"
-        className="flex flex-col justify-center items-center h-screen text-center px-4 pt-20"
+        className="flex flex-col justify-center items-center min-h-screen text-center px-4 pt-28"
       >
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -77,13 +77,34 @@ function App() {
           Processing, and Retrieval-Augmented Generation.
         </motion.p>
 
-        <motion.button
+        {/* Buttons */}
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            onClick={() => scrollToSection("projects")}
+            className="bg-white text-black px-6 py-2 rounded-lg font-medium"
+          >
+            View Projects
+          </motion.button>
+
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            href="/resume.pdf"
+            download
+            className="border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-black"
+          >
+            Download Resume
+          </motion.a>
+        </div>
+
+        {/* Email */}
+        <motion.a
           whileHover={{ scale: 1.1 }}
-          onClick={() => scrollToSection("projects")}
-          className="bg-white text-black px-6 py-2 rounded-lg font-medium"
+          href="mailto:riteshshankar2018@gmail.com?subject=Portfolio%20Contact"
+          className="mt-4 border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-black transition"
         >
-          View Projects
-        </motion.button>
+          Email Me
+        </motion.a>
       </section>
 
       {/* Projects */}
