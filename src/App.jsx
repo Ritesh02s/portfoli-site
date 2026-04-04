@@ -112,7 +112,7 @@ function App() {
 
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="https://linkedin.com/in/YOUR-LINKEDIN"
+            href="https://www.linkedin.com/in/ritesh-shankar-72a433191/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-medium text-white transition hover:bg-white hover:text-black"
