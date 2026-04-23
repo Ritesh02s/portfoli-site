@@ -1,6 +1,7 @@
 import './App.css';
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { Mail, ExternalLink } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   const scrollToSection = (id) => {
@@ -33,7 +34,7 @@ function App() {
               rel="noreferrer"
               className="flex items-center gap-2 hover:text-white transition"
             >
-              <Github size={18} className="text-gray-300" />
+              <FaGithub size={18} className="text-gray-300" />
               GitHub
             </a>
 
@@ -43,7 +44,7 @@ function App() {
               rel="noreferrer"
               className="flex items-center gap-2 hover:text-white transition"
             >
-              <Linkedin size={18} />
+              <FaLinkedin size={18} />
               LinkedIn
             </a>
           </div>
@@ -94,7 +95,7 @@ function App() {
 
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="resume (1).pdf"
+            href="/resume.pdf"
             download
             className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-medium text-white transition hover:bg-white hover:text-black"
           >
@@ -117,7 +118,7 @@ function App() {
             rel="noreferrer"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-medium text-white transition hover:bg-white hover:text-black"
           >
-            <Linkedin size={30} className="text-white" />
+            <FaLinkedin size={30} className="text-white" />
             LinkedIn
           </motion.a>
         </div>
@@ -161,7 +162,7 @@ function App() {
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
               >
-                <Github size={16}/>
+                <FaGithub size={16} />
                 GitHub
               </a>
             </div>
@@ -189,7 +190,7 @@ function App() {
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
               >
-                <Github size={16} />
+                <FaGithub size={16} />
                 GitHub
               </a>
             </div>
@@ -217,7 +218,7 @@ function App() {
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
               >
-                <Github size={16} />
+                <FaGithub size={16} />
                 GitHub
               </a>
             </div>
@@ -245,7 +246,7 @@ function App() {
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
               >
-                <Github size={16} />
+                <GitHub size={16} />
                 GitHub
               </a>
 
