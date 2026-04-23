@@ -195,24 +195,24 @@ function App() {
             </div>
           </motion.div>
 
-          {/* Student Manager */}
+          {/* AskMyDocs – Production RAG System */}
           <motion.div
             whileHover={{ y: -8 }}
             className="group rounded-2xl border border-white/10 bg-white/5 p-6 shadow-xl backdrop-blur-sm"
           >
-            <h3 className="mb-3 text-xl font-semibold">Student Manager</h3>
+            <h3 className="mb-3 text-xl font-semibold">AskMyDocs</h3>
 
             <p className="mb-4 text-sm text-gray-400">
-              Python-based system for managing and analyzing student performance data.
+              Production-ready RAG system for efficient document querying and retrieval.
             </p>
 
             <p className="mb-6 text-sm text-gray-500">
-              Tech: Python, Data Handling
+              Tech: Python, FastAPI, Streamlit, BM25, Sentence Transformers, Cross Encoder
             </p>
 
             <div className="flex gap-3">
               <a
-                href="https://github.com/Ritesh02s/student-manager"
+                href="https://github.com/Ritesh02s/Ask_my_docs"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
