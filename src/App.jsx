@@ -246,7 +246,7 @@ function App() {
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-lg border border-white/15 px-4 py-2 text-sm hover:bg-white hover:text-black transition"
               >
-                <FaGithubGitHub size={16} />
+                <FaGithub size={16} />
                 GitHub
               </a>
 
